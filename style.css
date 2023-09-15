@@ -26,6 +26,11 @@
   /* background-repeat: no-repeat; */
      
   }
+
+  /* .img-fluid {
+    width: 140px;
+    height: 140px;
+  } */
   
   .btn.btn-lg.btn-outline-dark {
     background-color: navy;
@@ -74,7 +79,7 @@
 }
 
   #portfolio img {
-    height: auto;
+    /* height: auto; */
     object-fit: cover;
     border-radius: 10px;
     transform: 0.3s ease;
@@ -188,8 +193,8 @@
 
 #last {
   height: 140px;
-  /* width: auto; */
-  border-radius: 50%;
+  width: 140px;
+  /* border-radius: 50%; */
 }
 
 #feature {
