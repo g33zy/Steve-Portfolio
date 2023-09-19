@@ -51,12 +51,14 @@
   /* Hero section background image */
   .hero {
     height: 100vh;
+    /* height: auto; */
     background-image: url("https://www.omnihotels.com/blog/wp-content/uploads/2018/03/bartonsprings.jpg");
     background-repeat: no-repeat;
     background-position: 60% 0%;
     background-size: cover;
     background-attachment: fixed;
     opacity: 100%;
+    width: 100%;
   }
 
 /* .py-5 { */
@@ -158,7 +160,9 @@
     /* background-image: url("https://images.unsplash.com/photo-1588204784390-d3b85c298e29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9nJTIwdHJlZXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"); */
     /* background-image: url("https://img.freepik.com/premium-photo/basketball-hoop-gym_297535-4855.jpg"); */
     /* background-image: url("https://c1.wallpaperflare.com/preview/597/823/781/isle-aerial-view-football-drone-view.jpg"); */
-    background-image: url(images/socceraerial.jpg)
+    background-image: url(images/socceraerial.jpg);
+    max-width: 100%;
+    
   }
 
   .details {
@@ -226,7 +230,18 @@
     #skills .card,
     #portfolio .card-wrapper {
       width: 100% !important;
+      
     }
+
+    .hero {
+      background-image: url("images/bartonsprings.jpg"); 
+  }
+
+  #contact {
+    background-image: url("images/soccerfield9x16.jpg");
+}
+
+
    #about .hire-text h2 {
      height: 70px;
      width: 70px;
